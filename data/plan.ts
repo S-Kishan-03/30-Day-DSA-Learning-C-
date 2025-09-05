@@ -1,5 +1,5 @@
 
-import type { Day } from '../types';
+import type { Day } from '../types.ts';
 
 export const dsaPlan: Day[] = [
   // Week 1

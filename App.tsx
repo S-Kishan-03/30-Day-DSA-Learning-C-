@@ -1,10 +1,11 @@
+
 import React, { useState, useEffect } from 'react';
-import Sidebar from './components/Sidebar';
-import DayView from './components/DayView';
-import { dsaPlan } from './data/plan';
-import type { Day, Topic, LearningContent } from './types';
-import LearningModal from './components/LearningModal';
-import { generateLearningContent } from './lib/gemini';
+import Sidebar from './components/Sidebar.tsx';
+import DayView from './components/DayView.tsx';
+import { dsaPlan } from './data/plan.ts';
+import type { Day, Topic, LearningContent } from './types.ts';
+import LearningModal from './components/LearningModal.tsx';
+import { generateLearningContent } from './lib/gemini.ts';
 
 interface ModalState {
   isOpen: boolean;

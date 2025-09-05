@@ -1,6 +1,6 @@
 
 import React from 'react';
-import type { Day } from '../types';
+import type { Day } from '../types.ts';
 
 interface SidebarProps {
   plan: Day[];

@@ -1,9 +1,9 @@
 
 import React from 'react';
-import type { Day, Topic } from '../types';
-import { dailyMicroRoutine } from '../types';
-import TopicCard from './TopicCard';
-import { SparklesIcon } from './Icons';
+import type { Day, Topic } from '../types.ts';
+import { dailyMicroRoutine } from '../types.ts';
+import TopicCard from './TopicCard.tsx';
+import { SparklesIcon } from './Icons.tsx';
 
 interface DayViewProps {
   day: Day;

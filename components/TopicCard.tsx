@@ -1,7 +1,7 @@
 
 import React from 'react';
-import type { Topic } from '../types';
-import { BrainIcon, CodeBracketIcon, ChartBarIcon, LightBulbIcon } from './Icons';
+import type { Topic } from '../types.ts';
+import { BrainIcon, CodeBracketIcon, ChartBarIcon, LightBulbIcon } from './Icons.tsx';
 
 interface TopicCardProps {
   topic: Topic;

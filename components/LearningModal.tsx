@@ -1,6 +1,7 @@
+
 import React, { useEffect, useRef } from 'react';
-import type { Topic, LearningContent } from '../types';
-import { XMarkIcon, LightBulbIcon, BrainIcon, CodeBracketIcon, ChartBarIcon, CheckIcon, ClipboardDocumentListIcon } from './Icons';
+import type { Topic, LearningContent } from '../types.ts';
+import { XMarkIcon, LightBulbIcon, BrainIcon, CodeBracketIcon, ChartBarIcon, CheckIcon, ClipboardDocumentListIcon } from './Icons.tsx';
 
 interface LearningModalProps {
   topic: Topic;
